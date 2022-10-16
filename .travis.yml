@@ -19,7 +19,7 @@ deploy:
   secret_access_key: "$SECRET_ACCESS_KEY"
   region: "ap-south-1"
   app: "docker-youtube"
-  env: "Dockeryoutube-env"
+  env: "Dockeryoutube-env-1"
   bucket_name: "elasticbeanstalk-ap-south-1-189487406611"
   bucket_path: "app-docker-youtube"
   skip_cleanup: true
