@@ -1,4 +1,4 @@
-FROM node:alpine as teamalpha
+FROM node:16-alpine as teamalpha
 WORKDIR /var/app
 COPY package.json .
 COPY package-lock.json .
