@@ -6,8 +6,8 @@ services:
 before_install:
   - docker build -t dockeryoutube .
 
-script:
-  - docker run -e CI=true dockeryoutube npm run test
+# script:
+#   - docker run -e CI=true dockeryoutube npm run test
 
 deploy:
   provider: elasticbeanstalk
